@@ -8,7 +8,7 @@
 - طراحی مدرن با استفاده از [shadcn-vue](https://github.com/shadcn-ui/ui)
 - پشتیبانی از:
   - مرتب‌سازی (Sorting)
-  - صفحه‌بندی (Pagination)
+  - فیلترینگ (filtering)
   - انتخاب ردیف‌ها با چک‌باکس (Row selection)
   - نمایش سفارشی سلول‌ها (Custom cell rendering)
 
