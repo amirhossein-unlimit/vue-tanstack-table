@@ -1,39 +1,37 @@
-# vue-tanstack-table
+📘 Available Languages: [English](README.md) | [فارسی 🇮🇷](README.fa.md)
 
-This template should help get you started developing with Vue 3 in Vite.
+# Building a Table in Vue.js with TanStack and shadcn
 
-## Recommended IDE Setup
+A customizable and performant data table built with **Vue 3**, **TanStack Table**, and styled using **shadcn-vue** components.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ Features
 
-## Type Support for `.vue` Imports in TS
+- Built with [TanStack Table](https://tanstack.com/table/latest) for powerful table logic
+- Uses [shadcn-vue](https://www.shadcn-vue.com/) for clean and modern UI
+- Supports:
+  - Sorting
+  - Filtering
+  - Row selection with checkbox
+  - Custom cell rendering
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🛠 Tech Stack
 
-## Customize configuration
+- Vue 3 + Vite
+- TypeScript
+- TanStack Table
+- shadcn-vue
+- Tailwind CSS
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🚀 Getting Started
 
-## Project Setup
+```bash
+# Clone the repository
+git clone https://github.com/your-username/vue-tanstack-table.git
+cd vue-tanstack-table
 
-```sh
-pnpm install
-```
+# Install dependencies
+pnpm install  # or npm install / yarn install
 
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
+# Run the development server
+pnpm dev  # or npm run dev / yarn dev
 ```
