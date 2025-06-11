@@ -91,6 +91,7 @@ const columns = [
         case 'user':
           return 'کاربر';
         default:
+          new Error('Invalid role specified.');
           break;
       }
     },
